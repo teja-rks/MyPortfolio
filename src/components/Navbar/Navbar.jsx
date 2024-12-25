@@ -26,9 +26,9 @@ const Navbar = () => {
         <img src={menu_close} alt="" onClick={closemenu} className='nav-mob-close' />
         <li><AnchorLink  className='anchor-link' offset={100}  href='#header'><p onClick={()=>setmenu("header")}>Home</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' offset={100} href='#about'><p onClick={()=>setmenu("About")}>About me</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={100} href='#services'><p onClick={()=>setmenu("Services")}>Services</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={100} href='#portfolio'><p onClick={()=>setmenu("Portfolio")}>Portfolio</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={100} href='#contact'><p onClick={()=>setmenu("Contact")}>Contact</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={100} href='#services'><p onClick={()=>setmenu("Services")}>Projects</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={100} href='#portfolio'><p onClick={()=>setmenu("Portfolio")}>Certifications</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={100} href='#contact'><p onClick={()=>setmenu("Contact")}>Contact Me</p></AnchorLink></li>
       </ul>
       <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setmenu("Contact")}>Contact me</p></AnchorLink></div>
     </div>
