@@ -1,0 +1,134 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 6%;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1000;
+    background: #161513;
+}
+.Navbar .logo{
+    
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(270deg,#43da25 50%,#23e1d4 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1);
+    cursor: pointer;
+    font-family: "Great Vibes", serif;
+}
+.Navbar .logo:hover{
+    /* width: 50px; */
+     /* background: linear-gradient(270deg,#43da25 50%,#23e1d4 100%);
+     background-clip:text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; */
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    font-size: 18px;
+    position: relative;
+}
+.nav-menu li::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #2bd576;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.nav-menu li:hover::after{
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+.nav-connect{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#43da25 0.36%,#23e1d4 102.06%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+}
+.nav-connect  p{
+    color :black;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+.anchor-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-mob-open{
+    display: none;
+}
+.nav-mob-close{
+    display: none;
+}
+@media (max-width:768px) {
+    .navbar{
+        margin: 20px 6%;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: absolute;
+        right: -6px;
+        cursor: pointer;
+    }    
+    .nav-mob-close{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 30px;
+        right: 7%;
+        width: 30px;    
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 50px;
+        width: 300px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        background-color: #161513;
+        right: -300px;
+        padding-top: 100px;
+    }
+    .nav-menu li{
+        font-size: 22px;
+        padding-left: 50px;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .nav-menu li:hover {
+        color: #43da25;
+    }
+}

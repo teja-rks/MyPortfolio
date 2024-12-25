@@ -1,0 +1,103 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero img{
+    margin-top: 180px;
+    width: 240px;
+    border-radius: 50%;
+    border: 6px solid #43da25 ;
+}
+.hero h1{
+    text-align: center;
+    width: 65%;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.hero h1 span{
+    background: linear-gradient(270deg,#43da25 10%,#23e1d4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.header-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+/* .header-connect{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+} */
+.header-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.header-resume a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.header-resume:hover {
+    border: 2px solid #48efcb;
+    /* transform: scale(1.05); */
+     transition: 0.3s;
+    background: linear-gradient(264deg,#43da25 -5.09%,#23e1d4 106.28%);
+    color:black;
+    a{
+        color:black;
+    }
+}
+/* .header-resume a:hover{
+    color:black;
+} */
+.anchor-link {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width:768px) {
+    .hero img{
+        margin-top:100px;
+        width: 200px;
+    }
+    .hero h1{
+        margin-top: 10px;
+        width: 90%;
+        font-size: 35px;
+    }
+    .hero p{
+        width: 80%;
+        font-size: 16px;
+        line-height: 25px;
+        margin: 5px 0px;
+    }
+    .hero action{
+        gap: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom:50px;
+    }
+    .hero resume{
+        padding: 18px 30px;
+        border-radius: 40px;
+        font-size: 14px;
+    }
+}
