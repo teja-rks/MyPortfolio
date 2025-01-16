@@ -13,16 +13,14 @@ I'm actively learning **MERN Stack**, **Generative AI**, and building innovative
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![DSA](https://img.shields.io/badge/DSA-Important-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ---
 
 ## 📂 Projects  
 
-### 🔹 [SmartDoc: Unlocking Knowledge from Multiple Documents](https://github.com/your-project-link)  
+### 🔹 [SmartDoc: Unlocking Knowledge from Multiple Documents](https://github.com/teja-rks/SmartDocs)  
 🔹 **Tech Stack:** Python, LangChain, Gemini AI  
 🔹 **Description:** An AI-powered chatbot that retrieves and synthesizes information from multiple documents.  
 ### 🔹 [Weather App](https://github.com/teja-rks/Weather-Application)  
@@ -42,8 +40,8 @@ I'm actively learning **MERN Stack**, **Generative AI**, and building innovative
 
 ## 📫 Contact Me  
 
-🔗 **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/rks-teja/)  
-🔗 **GitHub:** [Your GitHub](https://github.com/teja-rks)  
+🔗 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/rks-teja/)  
+🔗 **GitHub:** [GitHub](https://github.com/teja-rks)  
 ✉ **Email:** teja.rks@gmail.com 
 
 ---
