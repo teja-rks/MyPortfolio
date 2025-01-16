@@ -47,8 +47,8 @@ I'm actively learning **MERN Stack**, **Generative AI**, and building innovative
 
 ## 📫 Contact Me  
 
-🔗 **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)  
-🔗 **GitHub:** [Your GitHub](https://github.com/your-github-profile)  
+🔗 **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/rks-teja/)  
+🔗 **GitHub:** [Your GitHub](https://github.com/teja-rks)  
 ✉ **Email:** teja.rks@gmail.com 
 
 ---
