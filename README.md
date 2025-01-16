@@ -25,12 +25,7 @@ I'm actively learning **MERN Stack**, **Generative AI**, and building innovative
 ### 🔹 [SmartDoc: Unlocking Knowledge from Multiple Documents](https://github.com/your-project-link)  
 🔹 **Tech Stack:** Python, LangChain, Gemini AI  
 🔹 **Description:** An AI-powered chatbot that retrieves and synthesizes information from multiple documents.  
-
-### 🔹 [Retail Social Media Campaign Manager](https://github.com/your-project-link)  
-🔹 **Tech Stack:** MERN Stack, AI Model Integration  
-🔹 **Description:** Helps businesses run AI-driven marketing campaigns effectively.  
-
-### 🔹 [Weather App](https://github.com/your-project-link)  
+### 🔹 [Weather App](https://github.com/teja-rks/Weather-Application)  
 🔹 **Tech Stack:** React.js, API Integration  
 🔹 **Description:** A simple weather forecast app displaying real-time data.  
 
