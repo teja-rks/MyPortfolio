@@ -15,6 +15,8 @@ import bootstrap from '../../assets/bootstrap.svg'
 import ml from '../../assets/machine-learning-png1.png'
 import arrow from '../../assets/arrowup.svg'
 import check from '../../assets/shape.png'
+import express from '../../assets/expressjs.svg'
+import mongodb from '../../assets/MongoDB.svg'
 const About = () => {
   return (
     <div id="about" className='about'>
@@ -31,7 +33,7 @@ const About = () => {
                 <div className="about-para">
                     <p><img src={check} alt="" /> &nbsp;Hi, I'm Teja, a 4th Year B.Tech Computer Science  Engineering student</p>
                     <p><img src={check} alt="" /> &nbsp;College : &nbsp;ACE Engineering College</p>
-                    <p><img src={check} alt="" /> &nbsp;Aspiring Computer Scientist passionate about innovation, skilled in coding, Web Development and AI solutions.</p>
+                    <p><img src={check} alt="" /> &nbsp;Aspiring Computer Science enthusiast with a passion for innovation, skilled in coding, web development, and AI-driven solutions.</p>
                     <p><img src={check} alt="" /> &nbsp;Driven to create impactful technologies, with hands-on experience in smart projects and competitive coding excellence.</p>
                 </div>
                 <div className='about-skills'>
@@ -48,6 +50,8 @@ const About = () => {
                         <img src={css} alt="" />
                         <img src={js} alt="" />
                         <img src={react} alt="" />
+                        <img src={express} alt="" />
+                        <img src={mongodb} alt="" />
                         <img src={mysql} alt="" />
                         <img src={node} alt="" />
                         <img src={bootstrap} alt="" />
