@@ -76,7 +76,7 @@ const About = () => {
             <hr/>
             <div className="about-achivement">
                 <h1>Geeks For Geeks</h1>
-                <p>2nd Rank from institution</p>
+                <p>1st Rank from institution</p>
                 <p>Solved 300+ problems</p>
                 <a href='https://www.geeksforgeeks.org/user/teja_rks/?utm_source=geeksforgeeks&utm_medium=colleges&utm_campaign=users' target="_blank">View Profile <img src={arrow} alt="" /></a>
             </div>
