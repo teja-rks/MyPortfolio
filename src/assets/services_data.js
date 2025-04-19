@@ -7,15 +7,15 @@ const Services_Data = [
     },
     {
         s_no:"02",
-        s_name:"Medical Insurance Forecast",
-        s_tech:"Python, Machine Learning",
-        s_desc:"A machine learning project to forecast medical insurance costs based on factors like age, BMI, and lifestyle. It aids in accurate premium predictions and personalized policy recommendations."
+        s_name:"Social Sync",
+        s_tech:"MERN Stack, Gemini API",
+        s_desc:"Developed a full-stack web application using the MERN stack that allows retail businesses to generate,schedule, and analyze AI-powered social media campaigns, featuring real-time OpenAI integration and secure user authentication."
     },
     {
         s_no:"03",
-        s_name:"Customer Churn Prediction",
-        s_tech:"Python, Machine Learning",
-        s_desc:"Customer churn prediction forecasts when customers might leave, enabling proactive retention strategies."
+        s_name:"Sorting Visualizer",
+        s_tech:"ReactJS, HTML, CSS, JavaScript",
+        s_desc:"Developed a sorting visualizer using React, HTML, CSS, and JavaScript to demonstrate various sorting algorithms, including Merge Sort, Quick Sort, Selection Sort, Insertion Sort, and Bubble Sort. Implemented animated number movements with unique colors for better clarity and tracking, along with a turn counter to measure"
     },
     {
         s_no:"04",
