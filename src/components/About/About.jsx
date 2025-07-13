@@ -31,7 +31,7 @@ const About = () => {
             </div>
             <div className='about-right'>
                 <div className="about-para">
-                    <p><img src={check} alt="" /> &nbsp;Hi, I'm Teja, a 4th Year B.Tech Computer Science  Engineering student</p>
+                    <p><img src={check} alt="" /> &nbsp;Hi, I'm Teja, a B.Tech Computer Science  Engineering student</p>
                     <p><img src={check} alt="" /> &nbsp;College : &nbsp;ACE Engineering College</p>
                     <p><img src={check} alt="" /> &nbsp;Aspiring Computer Science enthusiast with a passion for innovation, skilled in coding, web development, and AI-driven solutions.</p>
                     <p><img src={check} alt="" /> &nbsp;Driven to create impactful technologies, with hands-on experience in smart projects and competitive coding excellence.</p>
